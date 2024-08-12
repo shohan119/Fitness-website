@@ -1,0 +1,139 @@
+
+
+
+
+
+
+body{
+    width: 1440px;
+    background-color: black;
+    padding: 30px 180px;
+    color: white;
+    
+}
+
+/* shared styles start*/
+.btn-container{
+    padding: 12px;
+    border-radius: 50px;
+    color: white;
+    background-color: coral;
+    font-weight: 600;
+    font-size: 16px;
+}
+.icone{
+
+}
+.menu{
+
+}
+
+
+
+/* navbar style start */
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+.nav-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 2px solid rgb(32, 29, 27);
+   border-radius: 50px; 
+}
+.navbar-title{
+    color: rgb(247, 78, 16);
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+.navbar-itme{
+   color: white;
+   
+}
+/* navbar style end */
+
+/* banner style start */
+.banner-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* padding-left: 95px;
+   padding-right: 120px; */
+}
+.banner-title{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+
+
+/* banner style end */
+/* habit section start */
+.container{
+    text-align: center;
+    padding-top: 45px;
+}
+.habit-title{
+    font-weight: 600;
+    font-size: 45px;
+   
+}
+
+.habits{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding: 15px;   
+}
+.rap-img{
+    border-radius: 100%;
+}
+/* habit section end */
+
+
+ /* section 3 start  */
+ .run-container{
+    width: 1440px;
+     display: flex; 
+     justify-content: space-between;
+     /* border: 2px solid rgb(170, 153, 150); */
+     background-color: rgb(44, 44, 44);
+     
+ }
+ 
+ .rulls{
+    
+ }
+ 
+/* section 3 end */
+ .trainer-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+  .trainer img{
+    width: 100%;
+    border: 1px solid white;
+  }
+
+
+
+ /* footer styles start  */
+
+
+ .footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    border: 2px solid slategrey;
+    background-color: rgb(37, 37, 36);
+    
+ }
+.text-dec{
+    padding: 30px 70px;
+}
+
